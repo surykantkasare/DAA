@@ -6,7 +6,6 @@ int binary_search(vector<int> &v, int &target)
     while (l <= r)
     {
         int m = (l + r) / 2;
-
         if (v[m] == target)
         {
             return m;
