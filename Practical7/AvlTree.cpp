@@ -1,21 +1,20 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-class Node{
-    public:
-    int data;
-    Node* left;
-    Node* right;
-};
-Node* newNode(int data)
+class Node
 {
-    Node* node=new Node();
-    node->data=data;
-    node->left=NULL;
-    node->right=NULL;
-   return node;
+public:
+    int data;
+    Node *left;
+    Node *right;
+};
+Node *newNode(int data)
+{
+    Node *node = new Node();
+    node->data = data;
+    node->left = NULL;
+    node->right = NULL;
+    return node;
 }
-int getBala
 int main()
 {
-    
 }
